@@ -19,7 +19,7 @@ const Hero = () => {
   const { ref, revealed } = useReveal()
 
   return (
-    <section id="hero" ref={ref} className="snap-start relative h-screen">
+    <section id="hero" ref={ref} className="snap-start relative h-screen max-mobile:h-dvh!">
       <img src={Wave} alt="Wave" className="w-full object-cover absolute top-0 left-0 rotate-y-180" />
 
       <div

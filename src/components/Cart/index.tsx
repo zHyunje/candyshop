@@ -28,7 +28,7 @@ const Cart = ({ isOpen, isOnTop }: { isOpen: boolean; isOnTop: boolean }) => {
         flex flex-col
         ${
           isOnTop
-            ? 'fixed top-0 max-mobile:-top-4 max-mobile:-right-1 h-screen rounded-l-md'
+            ? 'fixed top-0 max-mobile:-right-1 max-mobile:h-dvh h-screen rounded-l-md'
             : 'absolute top-full max-h-120 rounded-md'
         }
         ${
