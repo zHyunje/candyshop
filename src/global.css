@@ -1,0 +1,166 @@
+@import 'tailwindcss';
+@import '@/fonts.css';
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* global.css */
+@keyframes wave1 {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+}
+@keyframes wave2 {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(15px);
+  }
+}
+@keyframes wave3 {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+}
+@keyframes wave4 {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(18px);
+  }
+}
+@keyframes wave5 {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-12px);
+  }
+}
+
+.wave-1 {
+  animation: wave1 8s ease-in-out infinite;
+}
+.wave-2 {
+  animation: wave2 11s ease-in-out infinite;
+}
+.wave-3 {
+  animation: wave3 9s ease-in-out infinite;
+}
+.wave-4 {
+  animation: wave4 13s ease-in-out infinite;
+}
+.wave-5 {
+  animation: wave5 10s ease-in-out infinite;
+}
+
+.animate-marquee {
+  animation: marquee 50s linear infinite;
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-bounce-slow {
+  animation: bounce 3s infinite;
+}
+
+:root {
+  --primary: #ffb6c1;
+  --primaryDarken: #cc98a056;
+
+  --text-primary: #ffb3ba;
+  --text-secondary: #ce4d5a;
+  --text-thirdary: #9c2b36;
+
+  --active-navbar: #f5a8b3;
+  --navbar-close: rgb(184, 119, 119);
+  --navbar-text-size: 2.25rem;
+}
+
+@theme {
+  --font-candy: 'Candy', sans-serif;
+
+  --breakpoint-mobile: 600px;
+}
+
+* {
+  img {
+    user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: none;
+  }
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.no-scrollbar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+button,
+select {
+  @apply cursor-pointer;
+}
+
+@layer utilities {
+  .custom-text {
+    @apply font-candy font-bold text-4xl text-(--text-primary);
+  }
+
+  .rainbow-text {
+    cursor: context-menu;
+    background: linear-gradient(to right, #ffb3ba, #ffd1a9, #fffda9, #b5eab5, #a9d4ff, #c5b3ff, #ffb3e6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: var(--navbar-text-size);
+    @apply font-candy;
+    font-weight: bold;
+    -webkit-text-stroke: 0.05px #121212;
+
+    &.no-border {
+      -webkit-text-stroke: 0.025px #121212;
+    }
+  }
+
+  .center {
+    @apply absolute top-1/2 left-1/2 -translate-1/2;
+  }
+}

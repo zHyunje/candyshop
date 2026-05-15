@@ -1,0 +1,191 @@
+export const salgados = [
+  'Coxinha Cremosa',
+  'Coxinha de Catupiry',
+  'Bolinha de Queijo',
+  'Risole de Presunto e Queijo',
+  'Enroladinho de Salsicha',
+  'Kibe Recheado',
+  'Empadinha de Frango',
+  'Pastelzinho de Carne',
+  'Mini Pizza',
+  'Croissant Salgado',
+  'Esfiha de Carne',
+  'Pão de Queijo Recheado',
+  'Torta Salgada',
+  'Folhado de Frango',
+  'Mini Hot Dog',
+]
+
+export const docesChocolate = [
+  'Brownie Vulcão',
+  'Cookie Triplo Chocolate',
+  'Torta Holandesa',
+  'Donut de Chocolate',
+  'Petit Gateau',
+  'Fondue de Chocolate',
+  'Mousse de Chocolate',
+  'Cupcake Chocolatudo',
+  'Pizza de Chocolate',
+  'Pavê de Chocolate',
+  'Bombom Recheado',
+  'Trufa Belga',
+  'Choco Dream',
+  'Brownie de Nutella',
+  'Cookie Dark Supreme',
+]
+
+export const docesGourmet = [
+  'Cheesecake de Frutas Vermelhas',
+  'Macaron Francês',
+  'Tiramisu Especial',
+  'Banoffee Premium',
+  'Mil Folhas Gourmet',
+  'Red Velvet Supreme',
+  'Torta de Pistache',
+  'Choux Cream',
+  'Bolo Vulcão Gourmet',
+  'Panna Cotta',
+  'Croissant de Nutella',
+  'Delícia de Amarena',
+  'Paris Brest',
+  'Entremet de Chocolate',
+  'Saint Honoré',
+]
+
+export const brigadeiros = [
+  'Brigadeiro Tradicional',
+  'Brigadeiro de Leite Ninho',
+  'Brigadeiro de Pistache',
+  'Brigadeiro de Nutella',
+  'Brigadeiro de Paçoca',
+  'Brigadeiro de Oreo',
+  'Brigadeiro Meio Amargo',
+  'Brigadeiro Branco',
+  'Brigadeiro de Morango',
+  'Brigadeiro Ferrero',
+  'Brigadeiro de Café',
+  'Brigadeiro de Caramelo',
+  'Brigadeiro Gourmet',
+  'Brigadeiro Belga',
+  'Brigadeiro Supreme',
+]
+
+export const doces = [
+  'Brownie Vulcão',
+  'Cookie Red Velvet',
+  'Brigadeiro Gourmet',
+  'Donut Galaxy',
+  'Cupcake de Pistache',
+  'Torta de Morango',
+  'Churros Supreme',
+]
+
+export const cookies = [
+  'Cookie Red Velvet Supreme',
+  'Cookie de Pistache',
+  'Cookie Triplo Chocolate',
+  'Cookie de Nutella',
+  'Cookie de Caramelo Salgado',
+  'Cookie Crumbl de Morango',
+  'Cookie Dark Belgian',
+  'Cookie de Oreo',
+  'Cookie de Baunilha Premium',
+  'Cookie Choco White',
+  'Cookie de Doce de Leite',
+  'Cookie Marshmallow Supreme',
+  'Cookie Galaxy',
+  'Cookie de M&M Gourmet',
+  'Cookie Crumble Cream',
+]
+
+export const bolos = [
+  'Bolo Vulcão de Chocolate',
+  'Bolo Red Velvet',
+  'Bolo de Cenoura Supreme',
+  'Bolo de Pistache Gourmet',
+  'Bolo de Ninho com Nutella',
+  'Cheesecake Cremoso',
+  'Bolo de Frutas Vermelhas',
+  'Torta Holandesa Premium',
+  'Bolo Mousse de Chocolate',
+  'Bolo de Churros',
+  'Bolo Galaxy',
+  'Torta Banoffee Especial',
+  'Bolo Oreo Supreme',
+  'Cake de Caramelo',
+  'Bolo Sensação',
+]
+
+export const bebidas = [
+  'Café Espresso Gourmet',
+  'Capuccino Cremoso',
+  'Latte de Baunilha',
+  'Mocha Supreme',
+  'Chocolate Quente Cremoso',
+  'Ice Coffee de Nutella',
+  'Frappuccino de Caramelo',
+  'Café Gelado Especial',
+  'Milkshake de Ovomaltine',
+  'Milkshake de Pistache',
+  'Milkshake de Cookies',
+  'Milkshake de Morango',
+  'Milkshake Choco White',
+  'Smoothie Tropical',
+  'Suco Natural de Morango',
+  'Suco Detox Premium',
+  'Pink Lemonade',
+  'Soda Italiana de Frutas Vermelhas',
+]
+
+export const caixas = [
+  'Caixa Pink Sweet',
+  'Caixa Premium Rosa',
+  'Box Brigadeiro Lovers',
+  'Caixa Festa Gourmet',
+  'Box Crumbl Cookies',
+  'Caixa Chocolate Supreme',
+  'Sweet Box Deluxe',
+  'Box Café da Tarde',
+  'Caixa Romântica Especial',
+  'Box Gourmet Elegance',
+  'Caixa Mini Doces Premium',
+  'Box Brownie Lovers',
+  'Caixa Pistache Deluxe',
+  'Kit Festa Rosa',
+  'Caixa Presente Gourmet',
+]
+
+export const sections = [
+  {
+    title: 'Salgados',
+    items: salgados,
+  },
+  {
+    title: 'Doces de Chocolate',
+    items: docesChocolate,
+  },
+  {
+    title: 'Doces Gourmet',
+    items: docesGourmet,
+  },
+  {
+    title: 'Brigadeiros',
+    items: brigadeiros,
+  },
+  {
+    title: 'Cookies',
+    items: cookies,
+  },
+  {
+    title: 'Bolos e Tortas',
+    items: bolos,
+  },
+  {
+    title: 'Bebidas',
+    items: bebidas,
+  },
+  {
+    title: 'Caixas Especiais',
+    items: caixas,
+  },
+]
